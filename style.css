@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#collisionScreen {
+  opacity: 0;
+}
+
+img {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
